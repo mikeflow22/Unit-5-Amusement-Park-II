@@ -13,6 +13,7 @@
 		1B7ABC2823CCCE3A005A72B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7ABC2623CCCE3A005A72B9 /* Main.storyboard */; };
 		1B7ABC2A23CCCE3B005A72B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7ABC2923CCCE3B005A72B9 /* Assets.xcassets */; };
 		1B7ABC2D23CCCE3B005A72B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7ABC2B23CCCE3B005A72B9 /* LaunchScreen.storyboard */; };
+		1B7ABC3523CCCF8F005A72B9 /* EntrantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7ABC3423CCCF8F005A72B9 /* EntrantType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1B7ABC2923CCCE3B005A72B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7ABC2C23CCCE3B005A72B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B7ABC2E23CCCE3B005A72B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7ABC3423CCCF8F005A72B9 /* EntrantType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrantType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,72 @@
 		1B7ABC1F23CCCE3A005A72B9 /* Amusement Park II */ = {
 			isa = PBXGroup;
 			children = (
+				1B7ABC3823CCCFCC005A72B9 /* Storyboards */,
+				1B7ABC3923CCCFDD005A72B9 /* ViewControllers */,
+				1B7ABC3D23CCD016005A72B9 /* Guests */,
+				1B7ABC3C23CCD00F005A72B9 /* Employees */,
+				1B7ABC3A23CCD000005A72B9 /* Entrants */,
+				1B7ABC3623CCCFA2005A72B9 /* Model Types */,
+				1B7ABC3723CCCFC3005A72B9 /* Resources */,
+			);
+			path = "Amusement Park II";
+			sourceTree = "<group>";
+		};
+		1B7ABC3623CCCFA2005A72B9 /* Model Types */ = {
+			isa = PBXGroup;
+			children = (
+				1B7ABC3423CCCF8F005A72B9 /* EntrantType.swift */,
+			);
+			path = "Model Types";
+			sourceTree = "<group>";
+		};
+		1B7ABC3723CCCFC3005A72B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1B7ABC2023CCCE3A005A72B9 /* AppDelegate.swift */,
 				1B7ABC2223CCCE3A005A72B9 /* SceneDelegate.swift */,
-				1B7ABC2423CCCE3A005A72B9 /* ViewController.swift */,
-				1B7ABC2623CCCE3A005A72B9 /* Main.storyboard */,
 				1B7ABC2923CCCE3B005A72B9 /* Assets.xcassets */,
 				1B7ABC2B23CCCE3B005A72B9 /* LaunchScreen.storyboard */,
 				1B7ABC2E23CCCE3B005A72B9 /* Info.plist */,
 			);
-			path = "Amusement Park II";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B7ABC3823CCCFCC005A72B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1B7ABC2623CCCE3A005A72B9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1B7ABC3923CCCFDD005A72B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B7ABC2423CCCE3A005A72B9 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B7ABC3A23CCD000005A72B9 /* Entrants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entrants;
+			sourceTree = "<group>";
+		};
+		1B7ABC3C23CCD00F005A72B9 /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		1B7ABC3D23CCD016005A72B9 /* Guests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Guests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +199,7 @@
 			files = (
 				1B7ABC2523CCCE3A005A72B9 /* ViewController.swift in Sources */,
 				1B7ABC2123CCCE3A005A72B9 /* AppDelegate.swift in Sources */,
+				1B7ABC3523CCCF8F005A72B9 /* EntrantType.swift in Sources */,
 				1B7ABC2323CCCE3A005A72B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
